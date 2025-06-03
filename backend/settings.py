@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_scan_application',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'NAME': 'seno11$db_scan_application',
+        'USER': 'seno11',
+        'PASSWORD': 'Passwordmd5*123',
+        'HOST': 'seno11.mysql.pythonanywhere-services.com',
         'PORT': '3306',
     }
 }
