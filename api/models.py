@@ -19,6 +19,7 @@ class Profile(models.Model):
 
 class Merk(models.Model):
     nama_merk = models.CharField(max_length=255)
+    img_merk = models.ImageField(upload_to='media/profile/%Y/%m/%d/', blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

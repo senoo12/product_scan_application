@@ -16,7 +16,7 @@ class SeriAdmin(ImportExportModelAdmin, admin.ModelAdmin):
 admin.site.register(Seri, SeriAdmin)
 
 class MerkAdmin(ImportExportModelAdmin, admin.ModelAdmin):
-    list_display = ['id', 'nama_merk']
+    list_display = ['id', 'nama_merk', 'img_merk']
 
 admin.site.register(Merk, MerkAdmin)
 

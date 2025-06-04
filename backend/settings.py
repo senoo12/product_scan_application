@@ -14,6 +14,7 @@ SECRET_KEY = 'django-insecure-$m-o%h@d3^3&xz89i!yhr6g#%-s^hfde81g@p(kgkzl9wkbs38
 DEBUG = True
 
 ALLOWED_HOSTS = ['seno11.pythonanywhere.com']
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -85,6 +86,17 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'db_scan_application',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
